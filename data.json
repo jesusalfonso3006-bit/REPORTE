@@ -10,7 +10,7 @@
     "Rate \/ Quote Ref.":2.9,
     "Nominal":170000,
     "Cuenta":8113637,
-    "Estado":null,
+    "Estado":"FINALIZADO",
     "Comentario":null
   },
   {
@@ -24,8 +24,8 @@
     "Rate \/ Quote Ref.":2.65,
     "Nominal":2739000,
     "Cuenta":8100861,
-    "Estado":null,
-    "Comentario":null
+    "Estado":"OBSERVADO",
+    "Comentario":"SIN FONDO"
   },
   {
     "Registry":14978801.4399999995,
@@ -38,7 +38,7 @@
     "Rate \/ Quote Ref.":2.85,
     "Nominal":250000,
     "Cuenta":8068445,
-    "Estado":null,
+    "Estado":"FINALIZADO",
     "Comentario":null
   },
   {
@@ -52,7 +52,7 @@
     "Rate \/ Quote Ref.":2.9,
     "Nominal":1775000,
     "Cuenta":1122010100000000,
-    "Estado":null,
+    "Estado":"FINALIZADO",
     "Comentario":null
   },
   {
@@ -66,7 +66,105 @@
     "Rate \/ Quote Ref.":2.2,
     "Nominal":400000,
     "Cuenta":8117411,
-    "Estado":null,
+    "Estado":"FINALIZADO",
+    "Comentario":null
+  },
+  {
+    "Registry":14978845.4399999995,
+    "Currency":"US DOLLAR",
+    "Counterparty":"AUTOMOTORES GILDEMEISTER-PERU S.A.",
+    "Trader":"ILLEANA LIZETH AGUILAR FLORES",
+    "Status":"Valid - Back Office",
+    "Value Date":1780963200000,
+    "Maturity Date":1781049600000,
+    "Rate \/ Quote Ref.":2.6,
+    "Nominal":490000,
+    "Cuenta":8062480,
+    "Estado":"FINALIZADO",
+    "Comentario":null
+  },
+  {
+    "Registry":14978846.4399999995,
+    "Currency":"PERUVIAN NUEVO SOL",
+    "Counterparty":"CENTROS MEDICOS DEL PERU S.A",
+    "Trader":"ILLEANA LIZETH AGUILAR FLORES",
+    "Status":"Valid - Back Office",
+    "Value Date":1780963200000,
+    "Maturity Date":1781049600000,
+    "Rate \/ Quote Ref.":3.0,
+    "Nominal":1270000,
+    "Cuenta":8084955,
+    "Estado":"FINALIZADO",
+    "Comentario":null
+  },
+  {
+    "Registry":14978852.4399999995,
+    "Currency":"PERUVIAN NUEVO SOL",
+    "Counterparty":"EQUANS SERVICES PERU S.A.",
+    "Trader":"MELISSA SALMON AIMINI",
+    "Status":"Valid - Front Office",
+    "Value Date":1780963200000,
+    "Maturity Date":1781136000000,
+    "Rate \/ Quote Ref.":3.7,
+    "Nominal":7000000,
+    "Cuenta":8108587,
+    "Estado":"OBSERVADO",
+    "Comentario":"SIN FONDO"
+  },
+  {
+    "Registry":14978853.4399999995,
+    "Currency":"PERUVIAN NUEVO SOL",
+    "Counterparty":"EQUANS SERVICES PERU S.A.",
+    "Trader":"MELISSA SALMON AIMINI",
+    "Status":"Valid - Front Office",
+    "Value Date":1780963200000,
+    "Maturity Date":1781568000000,
+    "Rate \/ Quote Ref.":3.7,
+    "Nominal":5000000,
+    "Cuenta":8108587,
+    "Estado":"FINALIZADO",
+    "Comentario":null
+  },
+  {
+    "Registry":14978854.4399999995,
+    "Currency":"PERUVIAN NUEVO SOL",
+    "Counterparty":"EQUANS SERVICES PERU S.A.",
+    "Trader":"MELISSA SALMON AIMINI",
+    "Status":"Valid - Front Office",
+    "Value Date":1780963200000,
+    "Maturity Date":1781740800000,
+    "Rate \/ Quote Ref.":3.75,
+    "Nominal":5000000,
+    "Cuenta":8108587,
+    "Estado":"FINALIZADO",
+    "Comentario":null
+  },
+  {
+    "Registry":14978862.4399999995,
+    "Currency":"PERUVIAN NUEVO SOL",
+    "Counterparty":"LA VIGA S.A.",
+    "Trader":"MELISSA SALMON AIMINI",
+    "Status":"Valid - Front Office",
+    "Value Date":1780963200000,
+    "Maturity Date":1781049600000,
+    "Rate \/ Quote Ref.":3.85,
+    "Nominal":130000,
+    "Cuenta":8064210,
+    "Estado":"OBSERVADO",
+    "Comentario":"SIN FONDO"
+  },
+  {
+    "Registry":14978950.4399999995,
+    "Currency":"US DOLLAR",
+    "Counterparty":"GM OPERACIONES S.A.C.",
+    "Trader":"LUISA FERNANDA ALARCO SANCHEZ",
+    "Status":"Valid - Back Office",
+    "Value Date":1780963200000,
+    "Maturity Date":1781049600000,
+    "Rate \/ Quote Ref.":2.6,
+    "Nominal":2400000,
+    "Cuenta":8110220,
+    "Estado":"FINALIZADO",
     "Comentario":null
   }
 ]

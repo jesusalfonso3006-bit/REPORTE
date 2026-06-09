@@ -88,7 +88,7 @@ def get_image_base64(path):
 # =========================================================
 
 def normalizar_columnas(df):
-    df.columns = df.columns.astype(str).str.strip().str.upper()
+    df.columns = df.columns.str.strip().str.upper()
     return df
 
 
@@ -189,6 +189,7 @@ def opciones(col):
 
 counterparty = st.selectbox("Counterparty", opciones("COUNTERPARTY"))
 trader = st.selectbox("Trader", opciones("TRADER"))
+currency = st.selectbox("Currency", opciones("CURRENCY"))
 estado = st.selectbox("Estado", opciones("ESTADO"))
 
 filtrado = df.copy()
@@ -199,6 +200,8 @@ if counterparty != "Todos":
 if trader != "Todos":
     filtrado = filtrado[filtrado["TRADER"] == trader]
 
+if currency != "Todos":
+    filtrado = filtrado[filtrado["CURRENCY"] == currency]
 
 if estado != "Todos":
     filtrado = filtrado[filtrado["ESTADO"] == estado]

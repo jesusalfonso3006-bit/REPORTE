@@ -88,7 +88,7 @@ def get_image_base64(path):
 # =========================================================
 
 def normalizar_columnas(df):
-    df.columns = df.columns.str.strip().str.upper()
+    df.columns = df.columns.astype(str).str.strip().str.upper()
     return df
 
 
